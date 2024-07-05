@@ -1,0 +1,34 @@
+{
+  "version": "7",
+  "dialect": "postgresql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "7",
+      "when": 1720158119038,
+      "tag": "0000_previous_avengers",
+      "breakpoints": false
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1720158937216,
+      "tag": "0001_zippy_patriot",
+      "breakpoints": false
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1720159260595,
+      "tag": "0002_brown_ted_forrester",
+      "breakpoints": false
+    },
+    {
+      "idx": 3,
+      "version": "7",
+      "when": 1720160326526,
+      "tag": "0003_bored_lifeguard",
+      "breakpoints": false
+    }
+  ]
+}

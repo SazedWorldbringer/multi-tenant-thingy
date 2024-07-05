@@ -1,0 +1,35 @@
+{
+  "name": "multi-tenant-thingy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tsx watch src/main.ts",
+    "migrate": "drizzle-kit generate"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "argon2": "^0.40.3",
+    "drizzle-orm": "^0.31.2",
+    "fastify": "^4.28.1",
+    "fastify-guard": "^2.0.0",
+    "fastify-zod": "^1.4.0",
+    "jsonwebtoken": "^9.0.2",
+    "pg": "^8.12.0",
+    "pino": "^9.2.0",
+    "pino-pretty": "^11.2.1",
+    "zennv": "^0.1.1",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/jsonwebtoken": "^9.0.6",
+    "@types/pg": "^8.11.6",
+    "drizzle-kit": "^0.22.8",
+    "tsx": "^4.16.2",
+    "typescript": "^5.5.3",
+    "zod-to-json-schema": "^3.23.1"
+  }
+}
